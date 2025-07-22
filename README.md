@@ -54,19 +54,19 @@ Hit `prefix + I` to fetch the plugin and source it. Your Tmux should be updated 
 > [!TIP]
 > If you do not have github account [download](https://github.com/egel/tmux-gruvbox/archive/refs/heads/main.zip) it and unzip.
 
-1.  Clone the project to desired location
+1. Clone the project to desired location
 
     ```bash
     cd ~/projects/
     git clone ...
     ```
 
-1.  Add theme at to top of your `~/.tmux.conf` config.
+1. Add theme at to top of your `~/.tmux.conf` config.
 
     ```bash
     # ~/.tmux.conf
 
-    run ~/projects/tmux-gruvbox/tmux-gruvbox.tmux
+    run ~/projects/tmux-gruvbox/gruvbox-tpm.tmux
     # set desired options...
     set -g @tmux-gruvbox 'dark' # or 'dark256', 'light', 'light256'
     ```
@@ -174,14 +174,14 @@ set -g @tmux-gruvbox-right-status-z '#h #{tmux_mode_indicator}'
 
 To run project locally:
 
-1.  clone the repository to desired place
+1. clone the repository to desired place
 
     ```bash
     cd $HOME/projects/
     git clone ...
     ```
 
-1.  create a symlink to the cloned repository (best in the standard [TPM][github-tpm] plugin directory):
+1. create a symlink to the cloned repository (best in the standard [TPM][github-tpm] plugin directory):
 
     ```bash
     # cd to tmux plugin directory
@@ -191,7 +191,7 @@ To run project locally:
     ln -sf $HOME/projects/tmux-gruvbox/ tmux-gruvbox
     ```
 
-1.  and in `~/.tmux.conf` set
+1. and in `~/.tmux.conf` set
 
     ```bash
     # ~/.tmux.conf
@@ -204,9 +204,9 @@ To run project locally:
 
 To keep the files clean we use few program to help us achieve it:
 
-1.  Editorconfig (make sure your editor have it)
-2.  Markdown (prettier/prettierd)
-3.  Shell (shellcheck, shfmt)
+1. Editorconfig (make sure your editor have it)
+2. Markdown (prettier/prettierd)
+3. Shell (shellcheck, shfmt)
 
 ## License
 
@@ -216,16 +216,9 @@ GPLv3 - Maciej Sypień
 [github-alacritty]: https://github.com/alacritty/alacritty
 [github-gist-andersevenrud-alacritty-tmux-vim-truecolor]: https://gist.github.com/andersevenrud/015e61af2fd264371032763d4ed965b6
 [github-grovbox]: https://github.com/morhetz/gruvbox
-[github-hack]: https://github.com/chrissimpkins/Hack
 [github-nerd-fonts]: https://github.com/ryanoasis/nerd-fonts
 [github-seebi-tmux-color-solarized]: https://github.com/seebi/tmux-colors-solarized
 [github-tmux]: https://github.com/tmux/tmux
 [github-tpm]: https://github.com/tmux-plugins/tpm
-[imgur-img-gruvbox-dark-16bit-1x]: https://i.imgur.com/ae88LQI.png
-[imgur-img-gruvbox-dark-light-comparision-0.5x]: https://i.imgur.com/p6lUnzb.png
-[imgur-img-gruvbox-dark-light-comparision-1x]: https://i.imgur.com/uGyGwlC.png
-[imgur-img-gruvbox-dark256-1x]: https://i.imgur.com/kzQTTCa.png
-[imgur-img-gruvbox-light-16bit-1x]: https://i.imgur.com/fvpdRjg.png
-[imgur-img-gruvbox-light256-1x]: https://i.imgur.com/tQsl6LA.png
 [pexcel-1]: https://www.pexels.com/photo/urban-photo-of-an-alley-2411688/
 [pexcel-2]: https://www.pexels.com/photo/lights-hanging-above-the-alley-in-a-city-at-night-27044195/
