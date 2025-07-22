@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env zsh
 
 helper_teardown() {
   echo "TEARDOWN"

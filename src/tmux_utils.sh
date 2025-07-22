@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env zsh
 
 # get desired tmux option or use given default value
 tmux_get_option() {

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env zsh
 
 # Themes may use different colors in sets therefore we setup dark and light
 # separately.

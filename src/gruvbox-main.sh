@@ -1,6 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env zsh
 
-CURRENT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+CURRENT_DIR="${0:A:h}"
 readonly CURRENT_DIR
 
 # hold the array of all command to configure tmux theme
